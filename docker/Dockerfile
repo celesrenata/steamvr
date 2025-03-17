@@ -47,7 +47,7 @@ WORKDIR /tmp/btop
 RUN gmake PREFIX=/usr 
 
 
-FROM nvidia/cuda:12.6.0-runtime-ubuntu24.04
+FROM nvidia/cuda:12.8.1-runtime-ubuntu24.04
 ENV TZ=America/Los_Angeles
 ENV DEBIAN_FRONTEND noninteractive
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
